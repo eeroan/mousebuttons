@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Mousebuttons",
+  "version": "1.0",
+  "description": "Enable mouse navigation using extra buttons",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["mousebuttons.user.js"]
+    }
+  ]
+}
